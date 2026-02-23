@@ -37,8 +37,28 @@ A comprehensive web-based platform designed to streamline vehicle rental operati
    # For backend
    cd backend && npm install
    npm run seed // for installing seed data {default admin users data}
-   npm run dev
    # For frontend
    cd ../frontend && npm install
+   
+2. **Install dependencies**
+    
+3. **Set up environment variables**
+   *Create a .env file in the root directory and add:*
+   ```bash
+   DB_URL=your_database_url
+   JWT_SECRET=your_secret_key
+   STRIPE_KEY=your_stripe_api_key
+4. **Run the application**
+   ```bash
+   # Start backend
+   npm run dev
+   # Start frontend (in a separate terminal)
    npm run dev
 
+### 📂 Project Structure
+   ```bash
+   ├── client/           # React frontend
+   ├── server/           # Node.js/Express backend
+   ├── models/           # Database schemas (User, Car, Booking)
+   ├── routes/           # API endpoints
+   └── public/           # Static assets (images, icons)
