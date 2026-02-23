@@ -57,8 +57,5 @@ A comprehensive web-based platform designed to streamline vehicle rental operati
 
 ### 📂 Project Structure
    ```bash
-   ├── client/           # React frontend
-   ├── server/           # Node.js/Express backend
-   ├── models/           # Database schemas (User, Car, Booking)
-   ├── routes/           # API endpoints
-   └── public/           # Static assets (images, icons)
+      ├── frontend/           # React frontend
+      ├── backend/           # Node.js/Express backend
